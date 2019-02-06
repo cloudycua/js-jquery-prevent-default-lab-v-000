@@ -5,7 +5,7 @@ $(document).ready(function(){
 function submitForm() {
   $('form').on('submit', function(event){
     var name = $('#item').val();
-    $("#list").append('<li>item</li>');
+    $("#list ol").append('<li>item</li>');
     event.preventDefault();
   });
 }
