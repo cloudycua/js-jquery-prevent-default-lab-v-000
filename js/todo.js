@@ -5,7 +5,7 @@ $(document).ready(function(){
 function submitForm() {
   $('form').on('submit', function(event){
     var name = $('#item').val();
-    $("#list").text("Hello, " + item);
+    $("#list").text(item);
     event.preventDefault();
   });
 }
