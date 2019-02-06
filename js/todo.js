@@ -1,5 +1,9 @@
 $(document).ready(function(){
-  // call functions here
+  sumbitForm()
 });
 
-// define functions here
+function submitForm() {
+  $('form').on('submit', function(event) {
+    
+  })
+}
