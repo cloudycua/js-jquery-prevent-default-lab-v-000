@@ -5,7 +5,7 @@ $(document).ready(function(){
 function submitForm() {
   $('form').on('submit', function(event){
     var newItem = $('#item').val();
-    $("#list ol").append('<li>newItem</li>');
+    $("#list ol").append( '<li>' + newItem + '</li>');
     event.preventDefault();
   });
 }
