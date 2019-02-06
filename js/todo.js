@@ -4,8 +4,8 @@ $(document).ready(function(){
 
 function submitForm() {
   $('form').on('submit', function(event){
-    var name = $('#item').val();
-    $("#list ol").append('<li>item</li>');
+    var newItem = $('#item').val();
+    $("#list ol").append('<li>newItem</li>');
     event.preventDefault();
   });
 }
