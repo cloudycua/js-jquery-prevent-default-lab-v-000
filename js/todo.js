@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  sumbitForm();
+  submitForm();
 });
 
 function submitForm() {
